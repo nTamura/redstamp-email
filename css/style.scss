@@ -1,0 +1,44 @@
+body {
+  padding:0;
+  margin-top: 20px;
+}
+#email-container {
+  width: 600px;
+  height: auto;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #939696;
+}
+
+
+.topstrip, .header {
+  padding: 20px 50px;
+}
+
+#redstamp-logo {
+   width: 141px;
+   height: auto;
+   vertical-align:top;
+}
+.view-in-browser {
+  width: 99px;
+  height: 13px;
+  font-size: 10px;
+  color: #ec5447;
+  //  font-family: AlrightSansLT;
+  // padding-top: 10px; need align
+}
+
+.mute-big {
+  // font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: left;
+  color: #85939e;
+}
+
+#traction {
+  width: 222px;
+  height: auto;
+
+}
