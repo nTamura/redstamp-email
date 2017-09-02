@@ -4,9 +4,6 @@ body {
   border: 1px solid #939696;
 }
 
-.email-container {
-}
-
 #top{
   padding: 15px 50px 0px 50px;
 }
@@ -21,8 +18,6 @@ body {
     color: #ec5447;
   }
   .traction-logo{
-    // max-width: 222px;
-    // height: auto;
     float: right;
   }
   .header-text-area {
@@ -99,20 +94,15 @@ body {
   }
   .post-container {
     background: white;
-      // display: inline;
-      // padding-right: 5px;
   }
   .post-text-container {
     padding: 20px;
     margin-bottom: 15px;
   }
-
   .rs-blog-illustration-traction {
-    // object-fit: contain;
     width: auto;
     height: auto;
   }
-
   .rs-blog-automationmadeeasy {
     object-fit: contain;
     width: auto;
@@ -124,30 +114,27 @@ body {
   padding: 15px 50px 14px 50px;
   background-color: #ec5447;
 }
-.find-out-text {
-  color: #FFF;
-  text-align: center;
-  font-weight: lighter;
-}
+  .find-out-text {
+    color: #FFF;
+    text-align: center;
+    font-weight: lighter;
+  }
 
 #social{
   padding: 15px 50px 50px 50px;
 }
   .made-in-canada {
     margin: 10px 2px;
-
   }
   .made-in {
   color: #85939e;
   opacity: 0.5;
-
   }
   .canada {
     font-weight: bold;
   }
   .flag {
     display: inline-block;
-
   }
   .s-icons {
     margin: 0px 2px;
@@ -155,27 +142,21 @@ body {
 
 footer{
   padding: 15px 50px 50px 50px;
-  // margin-top: 20px;
   border-top: 1px solid lightgray;
-
-  // background-color: #f7f8f9;
 }
-.list-inline {
-  padding-top: 20px;
-}
-
-ul > li {
-  letter-spacing: 0.5px;
-  padding: 10px ;
-}
-
-.copyright {
-  color: #85939e;
-font-weight: lighter;
-font-size: 12px;
-
-}
-.icon {
-  width: 30px;
-  margin: 20px;
-}
+  .list-inline {
+    padding-top: 20px;
+  }
+  ul > li {
+    letter-spacing: 0.5px;
+    padding: 10px ;
+  }
+  .copyright {
+    color: #85939e;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  .icon {
+    width: 30px;
+    margin: 20px;
+  }
