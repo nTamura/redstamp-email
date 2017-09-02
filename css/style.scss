@@ -21,8 +21,8 @@ body {
     color: #ec5447;
   }
   .traction-logo{
-    max-width: 222px;
-    height: auto;
+    // max-width: 222px;
+    // height: auto;
     float: right;
   }
   .header-text-area {
@@ -91,7 +91,7 @@ body {
 #bottom{
   background-color: #f7f8f9;
   border-top: 1px solid lightgray;
-  padding: 0px 50px 14px 50px;
+  padding: 0px 50px 50px 50px;
 }
   .blog-posts {
     text-align: center;
@@ -99,9 +99,8 @@ body {
   }
   .post-container {
     background: white;
-    // margin:30px;
-    max-width: 40%;
-    display: inline;
+      // display: inline;
+      // padding-right: 5px;
   }
   .post-text-container {
     padding: 20px;
@@ -155,7 +154,7 @@ body {
   }
 
 footer{
-  padding: 15px 50px 14px 50px;
+  padding: 15px 50px 50px 50px;
   // margin-top: 20px;
   border-top: 1px solid lightgray;
 
@@ -168,7 +167,6 @@ footer{
 ul > li {
   letter-spacing: 0.5px;
   padding: 10px ;
-
 }
 
 .copyright {
@@ -178,6 +176,6 @@ font-size: 12px;
 
 }
 .icon {
-  width: 200px;
-
+  width: 30px;
+  margin: 20px;
 }
