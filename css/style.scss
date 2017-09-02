@@ -11,11 +11,13 @@ body {
   padding: 15px 50px 0px 50px;
 }
   .rs-logo{
+    max-width: 150px;
+    height: auto;
   }
   .link-browser-text {
+    font-weight: lighter;
+    font-size: smaller;
     padding-top: 5px;
-    // font-family: AlrightSansLT;
-    // font-size: 10px;
     color: #ec5447;
   }
   .traction-logo{
@@ -23,9 +25,15 @@ body {
     height: auto;
     float: right;
   }
-  .header-texts {
+  .header-text-area {
     padding: 50px 0px;
-    margin-bottom: 50px;
+  }
+  .header-title {
+    font-size: 3em;
+  }
+  .header-sub {
+    font-weight: lighter;
+    color: #85939e;
   }
   .bitmap {
     width: 100%;
@@ -33,122 +41,143 @@ body {
   }
 
 
-
-  #middle{
-    background-color: #f7f8f9;
-    padding: 0px 50px 20px 50px;
-
-  }
+#middle{
+  background-color: #f7f8f9;
+  padding: 0px 50px 20px 50px;
+}
   .offset-text{
     padding: 30px 30px 30px 100px;
   }
-    .news-container{
-      background-color: white;
-    }
+  .news-container{
+    background-color: white;
+  }
+  .subj-text {
+    font-size: smaller;
+    color: #60cbe2;
+  }
+  .news-title {
+    font-weight: bold;
+  }
+  .news-body {
+    font-weight: lighter;
+    color: #0a273c;
+  }
+  .dotted-text {
+    text-decoration-line: underline;
+      text-decoration-style: dashed;  text-decoration-color: lightgray;
+  }
+  .link-sponsor-text {
+    color: #ec5447;
+  }
 
-.p-mute-text {
-font-size: 12px;
-color: #85939e;
-// font-family: AlrightSansLT;
+  .features {
+    text-align: center;
+    padding: 40px 0px;
+  }
+  .well-m {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .p-mute-text {
+    font-weight: lighter;
+    color: #85939e;
+  }
+  .growth-icon {
+    margin: 20px;
+  }
 
-}
 
-.subj-text {
-font-family: sans-serif, AlrightSansLT;
-font-size: 10px;
-font-weight: bold;
-color: #60cbe2;
-}
-
-.link-sponsor-text {
-  // padding-top: 5px;
-  // font-family: AlrightSansLT;
-  // font-size: 10px;
-  color: #ec5447;
-}
-
-.features {
-  text-align: center;
-  padding: 40px 0px;
-}
-
-.well-m {
-  background-color: white;
-}
-
-.growth-icon {
-  margin: 0px 20px;
-}
-
-.blog-posts {
-  text-align: center;
-  padding: 30px 0px;
-}
 #bottom{
   background-color: #f7f8f9;
   border-top: 1px solid lightgray;
-
   padding: 0px 50px 14px 50px;
 }
+  .blog-posts {
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .post-container {
+    background: white;
+    // margin:30px;
+    max-width: 40%;
+    display: inline;
+  }
+  .post-text-container {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .rs-blog-illustration-traction {
+    // object-fit: contain;
+    width: auto;
+    height: auto;
+  }
+
+  .rs-blog-automationmadeeasy {
+    object-fit: contain;
+    width: auto;
+  }
+
+
+
 #message {
   padding: 15px 50px 14px 50px;
   background-color: #ec5447;
-
 }
 .find-out-text {
   color: #FFF;
   text-align: center;
-  font-family: AlrightSansLT, sans-serif;
-
+  font-weight: lighter;
 }
 
 #social{
-  padding: 15px 50px 14px 50px;
-
+  padding: 15px 50px 50px 50px;
 }
+  .made-in-canada {
+    margin: 10px 2px;
+
+  }
+  .made-in {
+  color: #85939e;
+  opacity: 0.5;
+
+  }
+  .canada {
+    font-weight: bold;
+  }
+  .flag {
+    display: inline-block;
+
+  }
+  .s-icons {
+    margin: 0px 2px;
+  }
+
 footer{
   padding: 15px 50px 14px 50px;
+  // margin-top: 20px;
+  border-top: 1px solid lightgray;
 
-  background-color: #f7f8f9;
+  // background-color: #f7f8f9;
 }
-//
-// .top-bar {
-//   margin: 20px 50px;
-// }
-//
-// .redstamp-logo {
-//    width: 141px;
-//    height: auto;
-// }
-// .view-in-browser {
-//   width: 99px;
-//   height: 13px;
-//   font-size: 10px;
-//   color: #ec5447;
-//   //  font-family: AlrightSansLT;
-//   // padding-top: 10px; need align
-// }
-//
-// .header {
-//   margin: 20px 50px 0px 50px;
-//
-// }
-//
-// .mute-big {
-//   // font-family: AlrightSansLT;
-//   font-size: 1  em;
-//   color: #85939e;
-// }
-//
+.list-inline {
+  padding-top: 20px;
+}
 
-//
+ul > li {
+  letter-spacing: 0.5px;
+  padding: 10px ;
 
-//
-// .email-body {
-//   background-color:  #f7f8f9;
-//   margin: 0px 50px;
-// }
-//
-// .news {
-// background-color: white;
-// }
+}
+
+.copyright {
+  color: #85939e;
+font-weight: lighter;
+font-size: 12px;
+
+}
+.icon {
+  width: 200px;
+
+}

@@ -1,26 +1,16 @@
-
-h1 {
-font-family: TiemposText-Regular, Serif;
+@font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/Tiempos/TiemposText-Regular.otf");
+}
+@font-face {
+  font-family: "AlrightSansLT";
+  src: url("/fonts/AlrightSans/AlrightSans-Regular.otf");
 }
 
-h2 {
-  font-family: TiemposText-Regular, Serif;
+h1, h2, h3 {
+  font-family: Tiempos, Serif;
 }
 
-h3 {
-  font-family: TiemposText-Medium, Serif;
-}
-
-h4 {
-  font-family: AlrightSansLT-Bold, Serif;
-  /* serif titles */
-}
-
-h5 {
-  font-family: AlrightSansLT-Bold, sans-serif;
-  /* blue links */
-}
-
-p {
-  font-family: AlrightSansLT-Regular, Arial, sans-serif;
+h4, h5, p, span, a, li {
+  font-family: AlrightSansLT, sans-serif;
 }
