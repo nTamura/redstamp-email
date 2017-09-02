@@ -36,7 +36,7 @@ body {
 
   #middle{
     background-color: #f7f8f9;
-    padding: 0px 50px 14px 50px;
+    padding: 0px 50px 20px 50px;
 
   }
   .offset-text{
@@ -46,7 +46,12 @@ body {
       background-color: white;
     }
 
+.p-mute-text {
+font-size: 12px;
+color: #85939e;
+// font-family: AlrightSansLT;
 
+}
 
 .subj-text {
 font-family: sans-serif, AlrightSansLT;
@@ -64,18 +69,39 @@ color: #60cbe2;
 
 .features {
   text-align: center;
-  padding: 30px 0px;
+  padding: 40px 0px;
 }
 
-#bottom{
-  padding: 15px 50px 14px 50px;
+.well-m {
+  background-color: white;
+}
 
+.growth-icon {
+  margin: 0px 20px;
+}
+
+.blog-posts {
+  text-align: center;
+  padding: 30px 0px;
+}
+#bottom{
+  background-color: #f7f8f9;
+  border-top: 1px solid lightgray;
+
+  padding: 0px 50px 14px 50px;
 }
 #message {
   padding: 15px 50px 14px 50px;
   background-color: #ec5447;
 
 }
+.find-out-text {
+  color: #FFF;
+  text-align: center;
+  font-family: AlrightSansLT, sans-serif;
+
+}
+
 #social{
   padding: 15px 50px 14px 50px;
 
