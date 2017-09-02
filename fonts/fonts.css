@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Tiempos";
-  src: url("./Tiempos/TiemposText-Regular.otf");
+  src: url("~/fonts/Tiempos/TiemposText-Regular.otf");
 }
 @font-face {
   font-family: "AlrightSansLT";
-  src: url("./AlrightSans/AlrightSans-Regular.otf");
+  src: url("~/fonts/AlrightSans/AlrightSans-Regular.otf");
 }
 
 h1, h2, h3 {
