@@ -1,0 +1,26 @@
+
+h1 {
+font-family: TiemposText-Regular, Serif;
+}
+
+h2 {
+  font-family: TiemposText-Regular, Serif;
+}
+
+h3 {
+  font-family: TiemposText-Medium, Serif;
+}
+
+h4 {
+  font-family: AlrightSansLT-Bold, Serif;
+  /* serif titles */
+}
+
+h5 {
+  font-family: AlrightSansLT-Bold, sans-serif;
+  /* blue links */
+}
+
+p {
+  font-family: AlrightSansLT-Regular, Arial, sans-serif;
+}
